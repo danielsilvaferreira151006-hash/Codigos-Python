@@ -1,0 +1,30 @@
+#requisitos:
+#1-cadastro cliente. 
+#2-cadastro de tipo de serviço
+#3-cadastro de ordem de serviço, com o problema.
+#4-controle de produtos no estoque (colocar e retirar do estoque)
+#5- " fale conosco: " para tirar duvida referente ao serviço
+#6-relatorios do tipo de serviço (puxar lista)
+#7-enviar notificação pós exceder o prazo    
+ 
+ from dataclasses import dataclass
+ from datetime importe datetime
+ 
+ @dataclass
+ 
+lista_d_Cadastro = []
+     
+class Cadastro_cliente:
+     nome:str
+     numero: str
+     
+class Cadastro_de_Serviço:
+     formatacao:str
+     limpeza geral:str
+     troca de pecas:str 
+     remocao de virus:str
+     instalacao de progrmas:str
+ 
+    
+     
+     
